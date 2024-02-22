@@ -34,3 +34,9 @@ variable "db_user" {
   description = "Cloud SQL instance user"
   default     = "rag-user"
 }
+
+variable "private_network" {
+  type        = string
+  description = "Cloud SQL private network"
+  default     = "default"
+}
